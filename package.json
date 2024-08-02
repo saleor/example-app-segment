@@ -25,7 +25,7 @@
     "@urql/exchange-auth": "2.1.6",
     "@vitejs/plugin-react": "4.3.1",
     "dotenv": "16.3.1",
-    "graphql": "16.7.1",
+    "graphql": "16.8.1",
     "graphql-tag": "2.12.6",
     "jsdom": "^20.0.3",
     "next": "14.2.3",
