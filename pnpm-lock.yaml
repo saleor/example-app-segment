@@ -84,8 +84,8 @@ importers:
         specifier: 1.6.0
         version: 1.6.0(@types/node@22.0.2)(jsdom@20.0.3)
       zod:
-        specifier: 3.21.4
-        version: 3.21.4
+        specifier: 3.22.3
+        version: 3.22.3
     devDependencies:
       '@graphql-codegen/cli':
         specifier: 5.0.2
@@ -3846,8 +3846,8 @@ packages:
     resolution: {integrity: sha512-b4JR1PFR10y1mKjhHY9LaGo6tmrgjit7hxVIeAmyMw3jegXR4dhYqLaQF5zMXZxY7tLpMyJeLjr1C4rLmkVe8g==}
     engines: {node: '>=12.20'}
 
-  zod@3.21.4:
-    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+  zod@3.22.3:
+    resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
 
 snapshots:
 
@@ -7401,7 +7401,7 @@ snapshots:
   retes@0.33.0:
     dependencies:
       busboy: 1.6.0
-      zod: 3.21.4
+      zod: 3.22.3
 
   reusify@1.0.4: {}
 
@@ -7928,4 +7928,4 @@ snapshots:
 
   yocto-queue@1.1.1: {}
 
-  zod@3.21.4: {}
+  zod@3.22.3: {}
