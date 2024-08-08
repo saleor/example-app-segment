@@ -1,25 +1,35 @@
-![Saleor App Segment](https://user-images.githubusercontent.com/249912/71523206-4e45f800-28c8-11ea-84ba-345a9bfc998a.png)
+# Saleor App Example: Segment integration
 
-<div align="center">
-  <h1>Saleor App Segment</h1>
-</div>
+Note: This repository is an example, which means:
 
-<div align="center">
-  <p>Connect your e-commerce events with Twilio Segment</p>
-</div>
+* It's not production ready
+* It's not actively maintained by Saleor
+* It should be used as a learning resource
 
-<div align="center">
-  <a href="https://saleor.io/">🏠 Website</a>
-  <span> • </span>
-  <a href="https://docs.saleor.io/docs/3.x/">📚 Docs</a>
-  <span> • </span>
-  <a href="https://saleor.io/blog/">📰 Blog</a>
-  <span> • </span>
-  <a href="https://twitter.com/getsaleor">🐦 Twitter</a>
-</div>
+### The stack
 
-## Maintenance note
+Segment app is based on App Template - you can check it [here](https://github.com/saleor/saleor-app-template)
 
-This app is an example - you can fork it as a template and self-host it.
-Saleor doesn't actively maintain this app. 
+## How to use this project
+
+### Select your APL
+
+If you want to develop single tenant application - use already configured `FileAPL` for local development.
+
+If you need to support multiple tenants application or you want to deploy your application - use `UpstashAPL`.
+
+To read more about storing auth data, read the [APL documentation](https://github.com/saleor/saleor-app-sdk/blob/main/docs/apl.md)
+
+
+### Generated schema and typings
+
+Commands `build` and `dev` would generate schema and typed functions using Saleor's GraphQL endpoint. Commit `generated` folder to your repo as they are necessary for queries and keeping track of the schema changes.
+
+[Learn more](https://www.graphql-code-generator.com/) about GraphQL code generation.
+
+### Learn more about Saleor Apps
+
+[Apps guide](https://docs.saleor.io/docs/3.x/developer/extending/apps/key-concepts)
+
+[Configuring apps in dashboard](https://docs.saleor.io/docs/3.x/dashboard/apps)
 
