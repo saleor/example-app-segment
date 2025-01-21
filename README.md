@@ -1,5 +1,8 @@
 # Saleor App Example: Segment integration
 
+> [!WARNING]
+> This example has been archived and moved to https://github.com/saleor/apps/tree/main/apps/segment 
+
 > [!TIP]
 > Questions or issues? Check our [discord](https://discord.gg/H52JTZAtSH) channel for help.
 
